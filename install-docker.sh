@@ -1,6 +1,8 @@
 #!/bin/bash
 
-
+sudo apt-get install -y curl
+wait
+echo "--------------------------------------"
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 wait
 echo "--------------------------------------"
